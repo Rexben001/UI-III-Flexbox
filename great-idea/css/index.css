@@ -51,13 +51,12 @@ table {
 * {
 	box-sizing: border-box;
 	font-family: 'Roboto Mono', monospace;
-	line-height: 1.6;
-
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5 {
@@ -105,8 +104,8 @@ nav img{
 	margin-left: 70px
 }
 
-index_section{
-	padding: 100px;
+section{
+	padding: 70px;
 }
 
 .primary_content{
@@ -201,9 +200,6 @@ padding-bottom: 30px;
 
 /* Styling for services.html begins */
 
-section{
-	padding: 70px;
-}
 .services-header-img {
 	width: 100%;
 	border-radius: 5px;
@@ -257,8 +253,4 @@ ul{
 	margin-top: 20px;
 	margin-left: 10px; 
 	padding-left: 10px;
-}
-
-.some-facts{
-	line-height: 1.6;
 }
