@@ -51,6 +51,7 @@ table {
 * {
 	box-sizing: border-box;
 	font-family: 'Roboto Mono', monospace;
+	line-height: 1.6;
 
 }
 
@@ -212,20 +213,21 @@ padding-bottom: 30px;
 	font-size: 1.5rem;
 }
 
-.services-rendered{
+.services-rendered, .some-facts{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 40px auto;
+	margin: 40px 0;
+	padding: 0;
 	justify-content: space-around;
 }
 
 .services-rendered > article {
 	width: 45%;
 	border: black 1px solid;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 10px;
 	background-color: rgb(224, 223, 223);
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .services-rendered button{
@@ -233,4 +235,22 @@ padding-bottom: 30px;
 	display: block;
 	margin-top: 10px;
 	border-radius: 5px;
+	cursor: pointer;
+}
+.some-facts > article{
+	width: 45%;
+}
+
+.some-facts article img{
+	width: 100%;
+	height: 250px;
+}
+ul{
+	list-style: disc;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.some-facts{
+	line-height: 1.6;
 }
