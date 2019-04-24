@@ -203,3 +203,7 @@ padding-bottom: 30px;
 .services-header-img {
 	width: 100%
 }
+
+.section .services{
+	padding: 30px 0;
+}
