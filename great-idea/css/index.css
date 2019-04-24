@@ -207,3 +207,30 @@ padding-bottom: 30px;
 .section .services{
 	padding: 30px 0;
 }
+
+.services h1 {
+	font-size: 1.5rem;
+}
+
+.services-rendered{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px auto;
+	justify-content: space-around;
+}
+
+.services-rendered > article {
+	width: 45%;
+	border: black 1px solid;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: rgb(224, 223, 223);
+	margin-bottom: 30px;
+}
+
+.services-rendered button{
+	padding: 7px 10px;
+	display: block;
+	margin-top: 10px;
+	border-radius: 5px;
+}
